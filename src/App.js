@@ -15,10 +15,10 @@ function App() {
   
     return (
     <div>
-      <MyName name={myInfo.name} />
-      <MyMbti mbti={myInfo.mbti} />
-      <MyIntro intro={myInfo.intro} />
-      <LikeImg img={myInfo.img} imgExplanation={myInfo.imgExplanation} />
+      <div className="container"><MyName name={myInfo.name} /></div>
+      <div className="container"><MyMbti mbti={myInfo.mbti} /></div>
+      <div className="container"><MyIntro intro={myInfo.intro} /></div>
+      <div className="container"><LikeImg img={myInfo.img} imgExplanation={myInfo.imgExplanation} /></div>
     </div>
   );
 }

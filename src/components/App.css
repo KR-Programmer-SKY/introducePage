@@ -1,12 +1,21 @@
 
 body {
+  margin: 0;
   background-color: #DDE7E7;
+  display: flex;
+  justify-content: center;
 }
 
 div {
+}
+
+.container {
+  margin-bottom: 20px;
+  width: 600px;
   background-color: #ffffff;
   padding: 20px;
   text-align: center;
+  border-radius: 10px;
 }
 
 h3 {
